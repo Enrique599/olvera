@@ -1,0 +1,47 @@
+<?php
+
+return [
+    'required' => 'El campo :attribute es obligatorio.',
+    'string'   => 'El campo :attribute debe ser texto.',
+    'numeric'  => 'El campo :attribute debe ser un número.',
+    'integer'  => 'El campo :attribute debe ser un número entero.',
+    'date'     => 'El campo :attribute no es una fecha válida.',
+    'digits'   => 'El campo :attribute debe tener :digits dígitos.',
+    'exists'   => 'El :attribute seleccionado no es válido.',
+    'in'       => 'El :attribute seleccionado no es válido.',
+    'unique'   => 'El :attribute ya está registrado.',
+    'same'     => 'Los campos :attribute y :other deben coincidir.',
+    'file'     => 'El campo :attribute debe ser un archivo.',
+    'min'      => [
+        'numeric' => 'El campo :attribute debe ser al menos :min.',
+        'string'  => 'El campo :attribute debe tener al menos :min caracteres.',
+    ],
+    'max'      => [
+        'numeric' => 'El campo :attribute no debe ser mayor a :max.',
+        'string'  => 'El campo :attribute no debe tener más de :max caracteres.',
+        'file'    => 'El archivo :attribute no debe pesar más de :max KB.',
+    ],
+
+    'attributes' => [
+        'nombre'           => 'nombre',
+        'apellido_paterno' => 'apellido paterno',
+        'paterno'          => 'apellido paterno',
+        'telefono'         => 'teléfono',
+        'contrasena'       => 'contraseña',
+        'confirmar'        => 'confirmación de contraseña',
+        'nueva'            => 'nueva contraseña',
+        'direccion'        => 'dirección',
+        'cp'               => 'código postal',
+        'num_piezas'       => 'número de piezas',
+        'categoria_id'     => 'categoría',
+        'precio_proveedor' => 'precio proveedor',
+        'precio_venta'     => 'precio de venta',
+        'realizacion'      => 'realización',
+        'cliente_id'       => 'cliente',
+        'proveedor_id'     => 'proveedor',
+        'total_piezas'     => 'total de piezas',
+        'estado_pago'      => 'estado del pago',
+        'metodo_pago'      => 'método de pago',
+        'archivo'          => 'archivo',
+    ],
+];
